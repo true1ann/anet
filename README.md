@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="anet-banner.png" alt=".anet Banner" />
+</p>
+
 # Project is under structure.
 please reach out to me if something doesnt work, undocumented or anything like this. oh also many things are referring to objects/files/folders which do not exist, thats a matter of time.
 
