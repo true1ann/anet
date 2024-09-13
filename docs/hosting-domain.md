@@ -1,15 +1,21 @@
-# Starting making a domain using .anet TLD.
-# Notice, everything starts from cloning the repo.
+# Creating a Domain with the .anet TLD
 
-1. Gather basic server info: For verification we'll need your username, domain's description (optional) and host's ip address (with port if needed, 443 will be set otherwise.)
+**Note:** Everything starts with cloning the repository.
 
-Example domain: test.json will result in a test.anet domain, you can use file !!!domain_template.json as your record base.
+## Steps to Create Your Domain
 
-2. Open a pull request to this repo, and wait for approval.
+1. **Gather Basic Server Information**: For verification, we will need the following details:
+   - Domain address.
+   - The host's IP address.
 
-In the meantime, you can setup webserver nginx, apache or pretty much anything. ***if its a file sharing, for example. I do not guarantee the security of it's files, meaning, everything depends on You.***
+   **Example**: Open `records.json`, add a new element (enclosed with `{}`), inside it add field "thn", this is your domain, then add field "hn", this is your server's IP. by default anet uses port 80, or 443 depending on the protocol and so it's solely your choice to make it http:// or https://
 
-3. After approval restart your local DNS resolver & wait for it to fetch the updated DNS and after its completed you can now visit your domain, if ANet's DNS resolver is setted up correctly.
+2. **Open a Pull Request**: Submit a pull request to this repository and wait for approval.
 
-# Tips
-1. Make local DNS file changes to immediately test the results, you can also make hidden domain names like this, just please make sure it doesnt interfere with global DNS file.
+   In the meantime, you can set up your web server (e.g., Nginx, Apache, or any other server). ***If you are setting up a file-sharing service, please note that We, Asper do not guarantee the security of its files; the responsibility for security lies with you.***
+
+3. **Restart Your Local DNS Resolver**: After your pull request is approved, restart your local DNS resolver and wait for it to fetch the updated DNS records. Once this is complete, you should be able to visit your domain, provided that ANet's DNS resolver is set up correctly.
+
+## Tips
+
+1. **Make Local DNS File Changes**: You can make changes to your local DNS file to immediately test the results. This allows you to create hidden domain names as well. Just ensure that these changes do not interfere with the global DNS file.
