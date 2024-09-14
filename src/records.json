@@ -1,6 +1,6 @@
 [
-    {"thn": "ann.anet", "hn": "95.83.149.186"},
-    {"thn": "aster.anet", "hn": "95.83.149.186"},
-    {"thn": "asper.anet", "hn": "95.83.149.186"},
-    {"thn": "git.asper.anet", "hn": "95.83.149.186"}
+    {"hostname": "ann.anet", "address": "95.83.149.186"},
+    {"hostname": "aster.anet", "address": "95.83.149.186"},
+    {"hostname": "asper.anet", "address": "95.83.149.186"},
+    {"hostname": "git.asper.anet", "address": "95.83.149.186"}
 ]
