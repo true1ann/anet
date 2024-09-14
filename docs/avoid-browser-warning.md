@@ -1,4 +1,4 @@
-# Installing a Self-Signed Certificate to Avoid Browser Warnings (for asper, ann and some other, official domains)
+# Installing a Self-Signed Certificate to Avoid Browser Warnings
 
 To avoid browser warnings when using a self-signed certificate, you need to install the self-signed certificate in the trusted root certificate store of your operating system or browser. Follow the instructions below for your specific platform.
 
@@ -45,7 +45,7 @@ To avoid browser warnings when using a self-signed certificate, you need to inst
    - Copy your self-signed certificate to the appropriate directory. For example:
 
    ```bash
-   sudo cp path/to/self-signed.crt /usr/local/share/ca-certificates/
+   sudo cp path/to/selfsigned.crt /usr/local/share/ca-certificates/
 
 2. **Restart Your Browser**:
    - Close and reopen your browser to ensure it recognizes the new trusted certificate.
