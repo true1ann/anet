@@ -1,20 +1,20 @@
 <p align="center">
-    <img src="anet-banner.png" alt=".anet Banner" />
+    <img src="anet-banner.png" alt="AsperNet Banner" />
 </p>
 
 # Disclaimer
 
 ## Important Privacy Notice for AsperNet Users
 
-AsperNet is a free alternative DNS resolver designed to provide reliable and efficient service. However, please be aware of the following:
+AsperNet is a free DNS resolver designed to empower users with choice. However, please note the following:
 
-1. **IP Address Exposure**: AsperNet does not have a dedicated IP address for its DNS service. Instead, it downloads `records.json` from our repository and hosts the DNS on the device from which you access AsperNet. While this means that your DNS queries are processed locally, your IP address may still be visible to any external services you access.
+1. **IP Address Exposure**: By using AsperNet, we do not guarantee anonymity while accessing third-party services. This means that any domain can potentially track your IP address without your consent. However, domains under the AsperNet umbrella (e.g., `git.asper.anet`) will NOT track your IP address whenever possible. In cases where IP logging cannot be disabled, we will only use this information in emergency situations, such as investigations involving prohibited or illegal content.
 
-2. **Separation of Services**: AsperNet fully guarantees the safety of services hosted under the Asper domain (e.g., `fediverse.asper.anet`, `git.asper.anet`). However, we do not have visibility into or control over the services you access through our DNS resolver, particularly those not belonging to Asper (e.g., `ann.anet`). Additionally, we do not guarantee the safety of any services when using third-party `records.json` files. This is because Asper's IP addresses can change, and we utilize FOSS (Free and Open Source Software) solutions for our services, making it easy for users to replicate everything.
+2. **Service Separation**: While services under the AsperNet domain (e.g., `git.asper.anet`) are secure, we cannot guarantee the safety of third-party services accessed through our DNS resolver. AsperNet supports third-party local `records.json`, allowing users to change our IP addresses to their own. As a FOSS (Free and Open Source Software) project, our services can be easily replicated.
 
-3. **User Responsibility**: To enhance your privacy while using our service, we encourage you to consider using IP-hiding tools based on your needs. While we cannot endorse specific services, there are various options available that can help you protect your online identity.
+3. **User Responsibility**: We STRONGLY recommend using IP-hiding tools to protect your privacy. It is your responsibility to take necessary measures against IP tracking.
 
-By using AsperNet, you acknowledge that you understand your IP address may be exposed and that it is your responsibility to take any necessary measures to protect your privacy.
+By using AsperNet, you acknowledge the potential risks associated with misuse of the tool.
 
 Thank you for choosing AsperNet!
 
@@ -22,23 +22,23 @@ Thank you for choosing AsperNet!
 
 # Project Status
 
-The project is currently under development. Please reach out if you encounter any issues, find undocumented features, or notice references to objects/files/folders that do not exist. These matters are being addressed over time.
+The project is STILL under development. Please report any issues or undocumented features.
 
 ---
 
 # About AsperNet
 
-AsperNet is an alternative internet solution that offers custom DNS, the .anet TLD, and the freedom of choice.
+AsperNet offers a custom and simple DNS resolver, along with the .anet TLD, promoting freedom and flexibility.
 
 ## What is 'anet' or 'AsperNet(work)'?
 
-AsperNet is a project similar to I2P, providing users with unlimited freedom. What does this mean?
+AsperNet is similar to I2P but is simpler to access and does not include anonymity features. Here’s a brief overview of what AsperNet can do:
 
-1. **Public IPs**: Both server and client IPs are public. If you are a web host, please use a VPS VPN to hide your IP. Regular users should also consider using a VPN. ***We do not provide any warranty regarding how any IPs will be used. Hiding them is solely your responsibility.***
-
-2. **Free Domains**: Unlike the traditional internet, you can easily set up a domain in AsperNet. Please refer to the instructions below.
-
-3. **Customizability and Flexibility**: This is a FOSS project licensed under GPLv3, allowing you to fork this repository and create your own network. This is why the project is ***highly optimized*** for various use cases.
+1. **Free Domains**: Easily set up a domain within AsperNet. Refer to the instructions below for guidance.
+   
+2. **Customizability**: This FOSS project is licensed under GPLv3, allowing you to fork the repository and create your own network, TLDs, and more.
+   
+3. **Easy Server Setup**: Detecting the hostname (e.g., `git.asper.anet`) is straightforward, similar to traditional web hosting, making it easy to start hosting your own service.
 
 ---
 
