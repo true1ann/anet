@@ -2,5 +2,6 @@
     {"hostname": "ann.anet", "address": "95.83.149.186"},
     {"hostname": "aster.anet", "address": "95.83.149.186"},
     {"hostname": "asper.anet", "address": "95.83.149.186"},
-    {"hostname": "git.asper.anet", "address": "95.83.149.186"}
+    {"hostname": "git.asper.anet", "address": "95.83.149.186"},
+    {"hostname": "alex.anet", "address": "86.124.65.187"}
 ]
